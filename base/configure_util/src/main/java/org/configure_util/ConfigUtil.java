@@ -24,8 +24,6 @@ public class ConfigUtil {
 
 		try { 
 			URL configURL =Thread.currentThread().getContextClassLoader().getResource(CONFIG_XML);
-			//下面的这个，打包成jar后没法使用，改成上面的那个ContextLoader的问题 
-			//URL configURL = ConfigUtil.class.getClassLoader().getResource(CONFIG_XML);
  			DefaultConfigurationBuilder factory = new DefaultConfigurationBuilder(configURL.getPath());
 
 			config = factory.getConfiguration();
