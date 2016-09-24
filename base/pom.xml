@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.tensong</groupId>
+  <artifactId>base</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <build/>
+  <modules>
+    <module>configure_util</module>
+    <module>configure_util_demo</module>
+  </modules>
+  
+  <properties>
+  	<commons-configuration.version>1.10</commons-configuration.version>
+  	<commons-beanutils.version>1.9.2</commons-beanutils.version>
+  	<junit.version>3.8.1</junit.version>
+  </properties>
+</project>

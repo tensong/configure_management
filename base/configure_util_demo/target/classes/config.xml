@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 所有的key-value方式的配置文件都可以放在这个里面，之后可以通过ConfigUtil.getConfiguration().getString(key)获取，或者ConfigUtil.getConfiguration().getInt(key)等 -->
+<configuration>
+	<properties fileName="configure/test.properties"/>
+	<properties fileName="configure/tensong.properties"/>
+</configuration>
